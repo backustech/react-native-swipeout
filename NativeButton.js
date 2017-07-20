@@ -4,7 +4,6 @@ import React, {
 
 import {
   TouchableWithoutFeedback,
-  TouchableNativeFeedback,
   TouchableHighlight,
   Text,
   StyleSheet,
@@ -36,7 +35,7 @@ const NativeButton = React.createClass({
     disabledStyle: Text.propTypes.style,
     children: PropTypes.node.isRequired,
     underlayColor: PropTypes.string,
-    background: (TouchableNativeFeedback.propTypes) ? TouchableNativeFeedback.propTypes.background : PropTypes.any,
+    background: PropTypes.any,
   },
 
   statics: {
