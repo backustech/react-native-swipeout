@@ -5,6 +5,7 @@ import React, {
 import {
   TouchableWithoutFeedback,
   TouchableHighlight,
+  TouchableNativeFeedback,
   Text,
   StyleSheet,
   Platform,
